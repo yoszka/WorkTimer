@@ -1,0 +1,36 @@
+/* THIS FILE WILL BE OVERWRITTEN BY DEV-C++ */
+/* DO NOT EDIT! */
+
+#include <windows.h> // include for version info constants
+
+#include "program_resoruces.rc"
+
+//
+// TO CHANGE VERSION INFORMATION, EDIT PROJECT OPTIONS...
+//
+1 VERSIONINFO
+FILEVERSION 2,4,2,78
+PRODUCTVERSION 2,4,2,78
+FILETYPE VFT_APP
+{
+  BLOCK "StringFileInfo"
+	 {
+		 BLOCK "080904E4"
+		 {
+			 VALUE "CompanyName", "JSP"
+			 VALUE "FileVersion", "2.4.2"
+			 VALUE "FileDescription", "Timer for work organize"
+			 VALUE "InternalName", ""
+			 VALUE "LegalCopyright", "Tomasz Jokiel"
+			 VALUE "LegalTrademarks", "tomasz.jokiel@gmail.com"
+			 VALUE "OriginalFilename", ""
+			 VALUE "ProductName", "Work Timer"
+			 VALUE "ProductVersion", "2.4.2"
+		 }
+	 }
+  BLOCK "VarFileInfo"
+	 {
+		 VALUE "Translation", 0x0809, 1252
+	 }
+}
+

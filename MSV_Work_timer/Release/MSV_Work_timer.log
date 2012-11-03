@@ -1,0 +1,43 @@
+﻿Build started 2012-11-03 13:41:52.
+     1>Project "E:\E_Programowanie\Visual Studio 2010 Projects\Work Timer\WorkTimer\MSV_Work_timer\MSV_Work_timer.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Release\MSV_Work_timer.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         E:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D DUPA /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt functions.cpp main.cpp
+         functions.cpp
+     1>functions.cpp(299): warning C4101: 'w' : unreferenced local variable
+     1>functions.cpp(299): warning C4101: 'n' : unreferenced local variable
+     1>functions.cpp(572): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 E:\Program Files\Microsoft Visual Studio 10.0\VC\include\string.h(105) : see declaration of 'strcpy'
+     1>functions.cpp(429): warning C4101: 'dwFileSize' : unreferenced local variable
+     1>functions.cpp(429): warning C4101: 'dwWrittenBytes' : unreferenced local variable
+     1>functions.cpp(430): warning C4101: 'hFile' : unreferenced local variable
+     1>functions.cpp(433): warning C4101: 'lPosition' : unreferenced local variable
+     1>functions.cpp(640): warning C4244: '=' : conversion from 'std::streamoff' to 'DWORD', possible loss of data
+     1>functions.cpp(938): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 E:\Program Files\Microsoft Visual Studio 10.0\VC\include\string.h(105) : see declaration of 'strcpy'
+     1>functions.cpp(1014): warning C4018: '<' : signed/unsigned mismatch
+     1>functions.cpp(1058): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 E:\Program Files\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : see declaration of 'fopen'
+     1>functions.cpp(1074): warning C4996: 'vsnprintf': This function or variable may be unsafe. Consider using vsnprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 E:\Program Files\Microsoft Visual Studio 10.0\VC\include\stdio.h(354) : see declaration of 'vsnprintf'
+         main.cpp
+       ResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /l"0x0409" /nologo /fo"Release\program_resoruces.res" program_resoruces.rc 
+       Link:
+         E:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\E_Programowanie\Visual Studio 2010 Projects\Work Timer\WorkTimer\Release\MSV_Work_timer.exe" /INCREMENTAL:NO /NOLOGO comctl32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\MSV_Work_timer.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"E:\E_Programowanie\Visual Studio 2010 Projects\Work Timer\WorkTimer\Release\MSV_Work_timer.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\E_Programowanie\Visual Studio 2010 Projects\Work Timer\WorkTimer\Release\MSV_Work_timer.lib" /MACHINE:X86 Release\program_resoruces.res
+         Release\functions.obj
+         Release\main.obj
+         Generating code
+         Finished generating code
+         MSV_Work_timer.vcxproj -> E:\E_Programowanie\Visual Studio 2010 Projects\Work Timer\WorkTimer\Release\MSV_Work_timer.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"E:\E_Programowanie\Visual Studio 2010 Projects\Work Timer\WorkTimer\Release\MSV_Work_timer.exe;#1" /manifest Release\MSV_Work_timer.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Release\MSV_Work_timer.unsuccessfulbuild".
+         Touching "Release\MSV_Work_timer.lastbuildstate".
+     1>Done Building Project "E:\E_Programowanie\Visual Studio 2010 Projects\Work Timer\WorkTimer\MSV_Work_timer\MSV_Work_timer.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:03.66

@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MSV_Work_timer", "MSV_Work_timer\MSV_Work_timer.vcxproj", "{EEA5FA34-D256-4309-B226-056BB229FED8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EEA5FA34-D256-4309-B226-056BB229FED8}.Debug|Win32.ActiveCfg = Debug|Win32
+		{EEA5FA34-D256-4309-B226-056BB229FED8}.Debug|Win32.Build.0 = Debug|Win32
+		{EEA5FA34-D256-4309-B226-056BB229FED8}.Release|Win32.ActiveCfg = Release|Win32
+		{EEA5FA34-D256-4309-B226-056BB229FED8}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
