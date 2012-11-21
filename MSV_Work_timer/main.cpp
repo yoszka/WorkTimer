@@ -1,6 +1,7 @@
 /*
   AUTHOR        Tomasz Jokiel
   DATE          12.2011
+  APPVERSION    2.4.5               // Don't write empty fields with "0:00:00" to "Data_base.xml", static library linking
   APPVERSION    2.4.0               // "End Day" additionally create "Data_base.xml" file with stored day summary
   APPVERSION    2.3.3               // ENTER can confirm field "Add time" (Working like button "Add")
   APPVERSION    2.3.2               // Improve add time parsing value (avalible formats: 1,5; 1.5; 1:30; 1h; 1m; 1s; and minus values )
