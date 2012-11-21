@@ -11,5 +11,3 @@
 *.la
 *.a
 
-# SQL Server Compact Edition Database File
-*.sdf
